@@ -81,7 +81,7 @@ export default function Portfolio() {
             </div>
             <div className="flex items-center justify-center lg:justify-start space-x-4 pt-4">
               <Button variant="ghost" size="icon" className="w-14 h-14 p-0" asChild>
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/Henekel" target="_blank">
                   <Github className="!h-8 !w-8" />
                   <span className="sr-only">GitHub</span>
                 </Link>
@@ -146,11 +146,15 @@ export default function Portfolio() {
                   </li>
                   <li className="text-lg md:text-xl lg:text-2xl flex items-start">
                     <span className="text-blue-600 dark:text-yellow-400 mr-2">•</span>
-                    Database Management (MySQL, MongoDB)
+                    Frameworks and Libraries(Spring Boot, ReactJS, VueJS, JUnit)
                   </li>
                   <li className="text-lg md:text-xl lg:text-2xl flex items-start">
                     <span className="text-blue-600 dark:text-yellow-400 mr-2">•</span>
-                    Version Control & Collaboration (Git, GitHub)
+                    Database Technologies (MySQL, MongoDB)
+                  </li>
+                  <li className="text-lg md:text-xl lg:text-2xl flex items-start">
+                    <span className="text-blue-600 dark:text-yellow-400 mr-2">•</span>
+                    DevOps & Tools(Git, GitHub, Docker, Linux)
                   </li>
                 </ul>
               </div>
@@ -164,6 +168,20 @@ export default function Portfolio() {
                     <div>
                       <p className="text-lg md:text-xl lg:text-2xl font-medium">B.S. Computer Science</p>
                       <p className="text-lg md:text-xl lg:text-2xl text-sm text-muted-foreground">2025 Graduate</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Calendar className="h-5 w-5 text-muted-foreground mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="text-lg md:text-xl lg:text-2xl font-medium">B.S. of Arts in Geography</p>
+                      <p className="text-lg md:text-xl lg:text-2xl text-sm text-muted-foreground">2010 Graduate</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Calendar className="h-5 w-5 text-muted-foreground mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="text-lg md:text-xl lg:text-2xl font-medium">Graduated Interpreter</p>
+                      <p className="text-lg md:text-xl lg:text-2xl text-sm text-muted-foreground">2020 Graduate</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -208,6 +226,7 @@ export default function Portfolio() {
               "MongoDB",
               "Git",
               "GitHub",
+              "Docker",
               "Tailwind CSS",
               "Bootstrap",
               "REST APIs",
@@ -380,7 +399,7 @@ export default function Portfolio() {
                     </div>
                   <div className="flex space-x-2">
                     <Button size="sm" variant="outline" asChild>
-                      <Link href="https://github.com" target="_blank">
+                      <Link href="https://github.com/Henekel/Portfolio-ReactJS" target="_blank">
                         <Github className="mr-2 h-4 w-4" />
                         Code
                       </Link>
@@ -444,7 +463,7 @@ export default function Portfolio() {
               </h3>
               <p className="text-lg md:text-xl lg:text-l text-sm text-muted-foreground mb-4">Check out my code</p>
               <Button variant="outline" size="sm" asChild>
-                <Link className="text-lg md:text-xl lg:text-l text-lg md:text-xl lg:text-l" href="https://github.com" target="_blank">
+                <Link className="text-lg md:text-xl lg:text-l text-lg md:text-xl lg:text-l" href="https://github.com/Henekel" target="_blank">
                   View Repos
                 </Link>
               </Button>
@@ -459,12 +478,12 @@ export default function Portfolio() {
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
               <p className="text-lg md:text-xl lg:text-l text-center text-sm leading-loose text-muted-foreground md:text-left">
-                © 2024 Henok Rezene. All rights reserved.
+                © 2025 Henok Rezene. All rights reserved.
               </p>
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="ghost" size="icon" className="w-14 h-14 p-0" asChild>
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/Henekel" target="_blank">
                   <Github className="!h-8 !w-8" />
                   <span className="sr-only">GitHub</span>
                 </Link>
